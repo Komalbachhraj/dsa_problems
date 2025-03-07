@@ -16,6 +16,7 @@ public:
         return count;
     }
 };
+Approach: first distribute one dollar to each children then try for the rest of the money 
 Q2.
   sol:
 class Solution {
@@ -48,3 +49,5 @@ public:
       return count+1;  
     }
 };
+Approch: first sort the array then check for the elements with even frequency agar odd hoto then odd to phle even m convert krlo then if the count is still less then the size of the array then return count+1;
+else return count
